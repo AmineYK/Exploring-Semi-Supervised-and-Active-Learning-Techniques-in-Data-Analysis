@@ -8,7 +8,7 @@ The sole purpose of the produced work is to present different techniques. It is 
 
 The techniques presented are:
 
- - ***Semi-Supervised Learning Techniques***:
+***Semi-Supervised Learning Techniques***:
 
 **Self Training**:also known as pseudo labeling, is a semi-supervised learning technique where a model is trained on the available labeled data and then used to predict labels for unlabeled data. These pseudo-labeled predictions are then added to the labeled dataset to retrain the model.
 

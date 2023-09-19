@@ -11,13 +11,13 @@ The sole purpose of the produced work is to present different techniques. It is 
 
 - ***Semi-Supervised Learning Techniques***:
 
-**Self Training**:also known as pseudo labeling, is a semi-supervised learning technique where a model is trained on the available labeled data and then used to predict labels for unlabeled data. These pseudo-labeled predictions are then added to the labeled dataset to retrain the model.
+**Self Training**: also known as pseudo labeling, is a semi-supervised learning technique where a model is trained on the available labeled data and then used to predict labels for unlabeled data. These pseudo-labeled predictions are then added to the labeled dataset to retrain the model.
 
 
 **Co-Training**: is a semi-supervised learning approach that involves two models, each trained on a different subset of the available data. These models complement each other by labeling the most uncertain unlabeled data instances for each other. This approach is based on the assumption that different models can provide complementary information.
 
 
-**Labeling with Generative Models**:Labeling with generative models involves using generative models, such as GANs (Generative Adversarial Networks), to assist in the labeling of unlabeled data. These generative models can generate synthetic labeled data points, helping to expand the labeled dataset.
+**Labeling with Generative Models**: Labeling with generative models involves using generative models, such as GANs (Generative Adversarial Networks), to assist in the labeling of unlabeled data. These generative models can generate synthetic labeled data points, helping to expand the labeled dataset.
 
 **Labeling with Graphs**: Labeling with graphs is a semi-supervised learning technique that leverages the relationships between data points represented as a graph or network structure. It involves propagating labels through the graph based on the labels of neighboring data points, enhancing the labeling process.
 
